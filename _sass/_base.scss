@@ -215,7 +215,7 @@ a, table.table a {
 
 .steps .content h2 {
   font-weight: 600;
-  font-size: 20px;
+  font-size: 19px;
   color: #676767;
   font-family: "Gill Sans", sans-serif;
 }
@@ -228,9 +228,10 @@ a, table.table a {
 }
 
 .steps .content h4 {
-  font-weight: 500;
+  font-weight: 1000;
   color: #676767;
   font-size: 16px;
+  font-family:"Tahoma", "Geneva", "sans-serif"
 }
 
 .steps .content h5 {
@@ -243,19 +244,19 @@ a, table.table a {
 .steps-container {
   position: relative;
   background-color: inherit;
-  width: calc(55% + 12px);
+  width: calc(56% + 10px);
 }
 
 .steps-container .content {
-  padding: 32px;
+  padding: 22px;
   background-color: var(--global-code-bg-color);
   position: relative;
-  border-radius: 0px 0px 80px 0px;
+  border-radius: 0px 0px 60px 0px;
   // box-shadow: 0px 16px 27px rgb(0 11 30 / 10%);
 }
 
 .steps .steps-container:nth-child(even) {
-  left: calc(45% - 12px);
+  left: calc(44% - 10px);
   flex-direction: row-reverse;
 }
 
