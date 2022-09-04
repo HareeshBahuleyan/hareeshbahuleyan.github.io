@@ -12,7 +12,7 @@ profile:
   #   <p>123 your address street</p>
   #   <p>Your City, State 12345</p>
 
-news: false  # includes a list of news items
+news: false  # includes a list of timeline items
 selected_papers: false # includes a list of papers marked as "selected={true}"
 social: true  # includes social icons at the bottom of the page
 ---
@@ -40,6 +40,8 @@ Welcome! &#128075;</p>
 
 <p style="text-align:justify"> I love travelling and have been to 17 countries so far✈️. I enjoy hiking and my other hobbies include trying out new recipes 🌮 and listenting to podcasts 🎧 (which can also be done simultaneously while cooking &#128521;). </p>
 
+<br>
+{% include timeline.html %}
 <br>
 
 <h5><b>Contact.</b></h5> 
