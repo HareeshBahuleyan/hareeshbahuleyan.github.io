@@ -215,14 +215,35 @@ a, table.table a {
 
 .steps .content h2 {
   font-weight: 600;
-  font-size: 16px;
+  font-size: 20px;
   color: #676767;
+  font-family: "Gill Sans", sans-serif;
+}
+
+.steps .content h3 {
+  font-weight: 600;
+  font-size: 18px;
+  color: var(--global-text-color);
+  font-family: "Gill Sans", sans-serif;
+}
+
+.steps .content h4 {
+  font-weight: 500;
+  color: #676767;
+  font-size: 16px;
+}
+
+.steps .content h5 {
+  font-weight: 600;
+  font-size: 18px;
+  color: var(--global-text-color);
+  font-family: "Gill Sans", sans-serif;
 }
 
 .steps-container {
   position: relative;
   background-color: inherit;
-  width: calc(50% + 32px);
+  width: calc(55% + 12px);
 }
 
 .steps-container .content {
@@ -234,7 +255,7 @@ a, table.table a {
 }
 
 .steps .steps-container:nth-child(even) {
-  left: calc(50% - 32px);
+  left: calc(45% - 12px);
   flex-direction: row-reverse;
 }
 
@@ -242,13 +263,13 @@ a, table.table a {
   display: flex;
 }
 
-.steps .steps-container .date {
+.steps .steps-container .logo {
   font-weight: 900;
   font-size: 16px;
   color: #ffffff;
   margin-bottom: 10px;
-  width: 62px;
-  height: 62px;
+  width: 106px;
+  height: 106px;
   background-color: var(--global-text-color-light);
   border-radius: 50%;
   flex-shrink: 0;
@@ -256,13 +277,14 @@ a, table.table a {
   display: flex;
   justify-content: center;
   z-index: 777;
+  padding: 2px 2px;
 }
 
 .step-line {
   width: 40px;
   background-color: var(--global-text-color);
   height: 2px;
-  margin-top: 31px;
+  margin-top: 51px;
   opacity: 0.4;
   flex-shrink: 0;
 }
