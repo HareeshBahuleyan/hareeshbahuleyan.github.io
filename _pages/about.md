@@ -38,12 +38,12 @@ Welcome! &#128075;</p>
 <h5><b>My Interests.</b></h5> 
 <p style="text-align:justify">While I am open to exploring different avenues in ML, my broad interests are in the areas of deep learning, natural language processing and transformer-based architectures🔬. On the engineering side, I am keen on building my knowledge around deployment, productionization and scaling of ML systems for real-world scenarios. ⚙️</p>
 
-<p style="text-align:justify"> I love travelling and have been to 17 countries so far✈️. I enjoy hiking and my other hobbies include trying out new recipes 🌮 and listenting to podcasts 🎧 (which can also be done in simultaneously while cooking &#128521;). </p>
+<p style="text-align:justify"> I love travelling and have been to 17 countries so far✈️. I enjoy hiking and my other hobbies include trying out new recipes 🌮 and listenting to podcasts 🎧 (which can also be done simultaneously while cooking &#128521;). </p>
 
 <br>
 
 <h5><b>Contact.</b></h5> 
-You can get in touch with me via email: \<firstname\>\<lastname\> [at] gmail [dot] com <br>
+You can get in touch with me by email: \<firstname\>\<lastname\> [at] gmail [dot] com <br>
 Alternatively, please reach out via one of the handles below:
 
 <!-- <p style="text-align:justify">I have always been fascinated by data science because it enables in rational decision making based on what the data tells us. With interests in the areas of statistical analysis, data mining, machine learning and natural language processing, I wish to share my learning and experiences through this blog.</p> -->
