@@ -9,7 +9,7 @@ The list includes talks given at paper reading groups, external events and confe
 
 ___
 
-- (2022) __zLab Tech Talks: Size & Fit Applied Science__ [[Video]](https://share.vidyard.com/watch/ZQcyigGJxEJiKSd3tcHsu2){:target="_blank"} [[Event Page]](https://pages.beamery.com/zalando/page/zlab-tech-talks-d1mwwsg20){:target="_blank"}
+- (2022) __zLab Tech Talks: Size & Fit Applied Science at Zalando__ [[Video]](https://share.vidyard.com/watch/ZQcyigGJxEJiKSd3tcHsu2){:target="_blank"} [[Event Page]](https://pages.beamery.com/zalando/page/zlab-tech-talks-d1mwwsg20){:target="_blank"}
 
 ___
 
