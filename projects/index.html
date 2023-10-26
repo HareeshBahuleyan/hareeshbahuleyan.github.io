@@ -6,7 +6,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 
-<title>Hareesh  Bahuleyan | blank</title>
+<title>Hareesh  Bahuleyan | projects</title>
 <meta name="description" content="A simple, whitespace theme for academics. Based on [*folio](https://github.com/bogoli/-folio) design.
 ">
 
@@ -31,7 +31,7 @@
 
 <link rel="stylesheet" href="/assets/css/main.css">
 
-<link rel="canonical" href="/blog/">
+<link rel="canonical" href="/projects/">
 
 <!-- JQuery -->
 <!-- jQuery -->
@@ -106,7 +106,7 @@
           </li>
           
           <!-- Blog -->
-          <li class="nav-item active">
+          <li class="nav-item ">
             <a class="nav-link" href="https://hareeshbahuleyan.github.io/blog/" target="_blank">
               blog
               
@@ -129,9 +129,11 @@
           
           
           
-          <li class="nav-item ">
+          <li class="nav-item active">
               <a class="nav-link" href="/projects/">
                 projects
+                
+                <span class="sr-only">(current)</span>
                 
               </a>
           </li>
@@ -174,60 +176,81 @@
     <!-- Content -->
 
     <div class="container mt-5">
-      <!-- <div class="post">
+      <div class="post">
 
-  <div class="header-bar">
-    <h1>al-folio</h1>
-    <h2>a simple whitespace theme for academics</h2>
-  </div>
+  <header class="post-header">
+    <h1 class="post-title">projects</h1>
+    <p class="post-description">Here are some projects that I have worked on in the past:</p>
+  </header>
 
+  <article>
+    <hr />
+<ul>
+  <li><strong>Image Super Resolution</strong> 
+<a href="https://github.com/HareeshBahuleyan/image-super-resolution" target="_blank">[Code]</a> <br />
+    <p style="text-align:justify">A CNN architechture (with residual connections) is trained to transform low resolution images to high resolution. The input to the model is a 72x72 image which is fed through a series of convolutional and residual blocks (to learn necessary features), and then upsampled (either by UpSampling2D or Deconv2D from Keras) to obtain a 288x288 image.</p>
+  </li>
+</ul>
 
-  <ul class="post-list">
-    
-      <li>
-        <h3><a class="post-title" href="/blog/2020/github-metadata/">a post with github metadata</a></h3>
-        <p class="post-meta">September 28, 2020</p>
-        <p>a quick run down on accessing github metadata.</p>
-      </li>
-    
-      <li>
-        <h3><a class="post-title" href="/blog/2020/twitter/">a post with twitter</a></h3>
-        <p class="post-meta">September 28, 2020</p>
-        <p>an example of a blog post with twitter</p>
-      </li>
-    
-      <li>
-        <h3><a class="post-title" href="/blog/2018/distill/">a distill-style blog post</a></h3>
-        <p class="post-meta">December 22, 2018</p>
-        <p>an example of a distill-style blog post and main elements</p>
-      </li>
-    
-  </ul>
+<hr />
 
-  
-<nav aria-label="Blog page naviation">
-  <ul class="pagination pagination-lg justify-content-center">
-    <li class="page-item disabled">
-      <a class="page-link" href="" tabindex="-1" aria-disabled="">Newer</a>
-    </li>
-    
-      
-        <li class="page-item active"><a class="page-link" href="/blog/index.html" title="blank">1</a></li>
-      
-        <li class="page-item "><a class="page-link" href="/blog/page/2/index.html" title="blank - page 2">2</a></li>
-      
-        <li class="page-item "><a class="page-link" href="/blog/page/3/index.html" title="blank - page 3">3</a></li>
-      
-    
-    <li class="page-item ">
-      <a class="page-link" href="/blog/page/2/">Older</a>
-    </li>
-  </ul>
-</nav>
+<ul>
+  <li><strong>Neural Style Transfer</strong> 
+<a href="https://github.com/HareeshBahuleyan/neural-style-transfer" target="_blank">[Code]</a> <br />
+    <p style="text-align:justify">Given two images A (content image) and B (style image), the task is to transfer the style of image A into that of image B, while being able to preserve the content of image A. The idea is to start with a random noise image (input image), and to update its pixel values so that we minimize both the style and content loss.</p>
+  </li>
+</ul>
 
+<hr />
 
+<ul>
+  <li><strong>Music Genre Classification</strong> 
+<a href="https://github.com/HareeshBahuleyan/music-genre-classification" target="_blank">[Code]</a> <br />
+    <p style="text-align:justify">Automatic recognition of music genre using the ensemble of two approaches: (1) Spectrogram based end-to-end image classification using a CNN (VGG-16), (2) Feature Engineering Approach using Logistic Regression, SVMs, Random Forest and eXtreme Gradient Boosting.</p>
+  </li>
+</ul>
 
-</div> -->
+<hr />
+
+<ul>
+  <li><strong>Music Language Modelling</strong> 
+<a href="https://github.com/HareeshBahuleyan/midi-music-generator" target="_blank">[Code]</a> <br />
+    <p style="text-align:justify">Generate music using language modelling approach with LSTM neural networks. MIDI instructions are converted into a sequence of 'words' and the task is to predict the next word in the sequence, given the previous _n_ words.</p>
+  </li>
+</ul>
+
+<hr />
+
+<ul>
+  <li><strong>Kaggle Seizure Prediction Challenge</strong> 
+<a href="https://github.com/HareeshBahuleyan/seizure-prediction-kaggle" target="_blank">[Code]</a> <br />
+    <p style="text-align:justify">EEG signals record electrical activity of the brain and can be used to predict the onset of a seizure. A competition conducted by the University of Melbourne on Kaggle required participants to classify 10-minute EEG clips into clips into either interictal or pre-ictal. I appoached the problem using an XGBoost classifier trained on (1) Time domain features, (2) Frequency domain features, and (3) EEG Specific Features. </p>
+  </li>
+</ul>
+
+<hr />
+
+<ul>
+  <li><strong>Text Classification using LSTMs</strong> 
+<a href="https://github.com/HareeshBahuleyan/deeplearning-tutorials/tree/master/text-classification-lstm" target="_blank">[Code]</a> <br />
+    <p style="text-align:justify">Carry out a sentiment analysis task on the Rotten Tomatoes movie review dataset using recurrent neural networks. Specifically, an LSTM was trained with sentences (sequence of words) to predict the sentiment label.</p>
+  </li>
+</ul>
+
+<hr />
+
+<ul>
+  <li><strong>Airbnb Rental Price Prediction</strong> 
+<a href="https://github.com/HareeshBahuleyan/airbnb-analysis" target="_blank">[Code]</a> <br />
+    <p style="text-align:justify">Python Selenium is used to scrape listings data from airbnb.ca for the city of Toronto. An extensive exploratory data analysis is carried out, following which, a price prediction model is built using information such as in-house amenitites and neighbourhood facilites as features.</p>
+  </li>
+</ul>
+
+<hr />
+
+  </article>
+
+</div>
 
     </div>
 
