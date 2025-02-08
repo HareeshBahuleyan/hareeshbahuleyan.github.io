@@ -29,11 +29,12 @@ social: true  # includes social icons at the bottom of the page
 Welcome! &#128075;</p>
 
 <h4 class="h4"><b>The Present.</b></h4>
-<p style="text-align:justify"> I currently work as an Applied Scientist at <a href="https://engineering.zalando.com/" target="_blank"> <b>Zalando SE</b></a> in Berlin. My job entails solving interesting challenges in the e-commerce space, specifically related to Fashion Artificial Intelligence. <a href="https://medium.com/zalando-talent-communities/inside-the-size-fit-team-at-zalado-a-talk-with-hareesh-bahuleyan-fbc711adbca7" target="_blank"> This short interview </a> will give you a glimpse of my journey at Zalando so far. &#127897; </p>
+<p style="text-align:justify"> I currently work as a Senior Machine Learning Engineer at <a href="https://www.mozilla.ai/" target="_blank"> <b>Mozilla AI</b></a> in Berlin, building a product named <a href="https://www.mozilla.ai/lumigator" target="_blank"> Lumigator</a>, with the objective of simplifying the LLM evaluation and model selection process for developers building their own AI solutions.🦾</p>
 
 <br>
 
  <h4 class="h4"><b>The Past.</b></h4>
+ <p style="text-align:justify"> Prior to Mozilla, I worked for 4 years in an Applied Science Team at <a href="https://engineering.zalando.com/" target="_blank"> <b>Zalando SE</b></a> in Berlin. My job there entailed solving interesting challenges in the e-commerce space, specifically related to Fashion Artificial Intelligence. <a href="https://medium.com/zalando-talent-communities/inside-the-size-fit-team-at-zalado-a-talk-with-hareesh-bahuleyan-fbc711adbca7" target="_blank"> This short interview </a> will give you a glimpse of my time at Zalando. &#127897; </p>
  <p style="text-align:justify"> Before moving to Germany🇩🇪, I spent 2 years as a Machine Learning Researcher at the Montreal Lab of <a href="https://www.borealisai.com/en/" target="_blank"><b>Borealis AI</b></a>,  the R&D arm of the <a href="https://www.rbc.com/our-company/index.html" target="_blank"> Royal Bank of Canada</a>. In 2018, I completed my graduate studies at the <b>University of Waterloo</b>, Canada🇨🇦, where the focus of my masters research thesis was on the applications of deep learning to natural language processing (NLP) and text generation with neural variational models. Here is a link to my <a href="https://scholar.google.com/citations?user=JOhxhg4AAAAJ&hl=en" target="_blank">Google Scholar profile</a> 🎓. </p> 
  <!-- My thesis was on the topic <a href="https://arxiv.org/pdf/1808.09012.pdf" target="_blank">Natural Language Generation with Neural Variational Models</a>. My research supervisor at the <b>University of Waterloo</b> was Prof. <a href="http://ov-research.uwaterloo.ca/index.html" target="_blank">Olga Vechtomova</a> and I have also worked closely with Dr. <a href="https://lili-mou.github.io" target="_blank"> Lili Mou</a>. </p> -->
 
@@ -44,9 +45,9 @@ Welcome! &#128075;</p>
 <br>
 
 <h4 class="h4"><b>My Interests.</b></h4>
-<p style="text-align:justify">While I am open to exploring different avenues in ML, my broad interests are in the areas of deep learning, natural language processing and transformer-based architectures🔬. On the engineering side, I am keen on building my knowledge around deployment, productionization and scaling of ML systems for real-world scenarios. ⚙️</p>
+<p style="text-align:justify">While I am open to exploring different avenues in ML, my broad interests are in the areas of deep learning, natural language processing and large language models🔬. On the engineering side, I am keen on building and deploying ML systems for real-world scenarios. ⚙️</p>
 
-<p style="text-align:justify"> I love travelling and have been to 17 countries so far✈️. I enjoy hiking and my other hobbies include trying out new recipes 🌮 and listenting to podcasts 🎧 (which can also be done simultaneously while cooking &#128521;). </p>
+<p style="text-align:justify"> I love travelling and have been to 34 countries so far✈️. I enjoy hiking and my other hobbies include trying out new recipes 🌮 and listenting to podcasts 🎧 (which is usually done simultaneously while cooking &#128521;). </p>
 
 <br>
 {% include timeline.html %}
