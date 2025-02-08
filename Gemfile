@@ -1,6 +1,9 @@
 source 'https://rubygems.org'
+
+ruby '3.0.2' 
+
 group :jekyll_plugins do
-    gem 'jekyll'
+    gem 'jekyll', '~> 4.2' 
     gem 'jekyll-email-protect'
     gem 'jekyll-github-metadata'
     gem 'jekyll-paginate-v2'
